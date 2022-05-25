@@ -1,11 +1,9 @@
-
+import Rute from "./Components/Rute";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Rute/>
     </div>
   );
 }
