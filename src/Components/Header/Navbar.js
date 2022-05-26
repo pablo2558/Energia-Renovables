@@ -56,13 +56,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Productos"><Nosotros/></Link>
+              <Link to="Nosotros"><Nosotros/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Redragon"><Sectores/></Link>
+              <Link to="Sectores"><Sectores/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="ComoComprar"><Productos/></Link>
+              <Link to="Productos"><Productos/></Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
               <Link to="Contacto"><Contacto/></Link>
@@ -86,13 +86,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="">
-          <Link to="Productos"><Nosotros/></Link>
+          <Link to="Nosotros"><Nosotros/></Link>
         </li>
         <li className="">
-          <Link to="Redragon"><Sectores/></Link>
+          <Link to="Sectores"><Sectores/></Link>
         </li>
         <li className="">
-          <Link to="ComoComprar"><Productos/></Link>
+          <Link to="Productos"><Productos/></Link>
         </li>
         <li className="">
           <a href="Contacto"><Contacto/></a>
