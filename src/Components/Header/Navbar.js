@@ -86,7 +86,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="">
-          <Link to="Nosotros"><Nosotros/></Link>
+          <Nosotros/>
         </li>
         <li className="">
           <Link to="Sectores"><Sectores/></Link>

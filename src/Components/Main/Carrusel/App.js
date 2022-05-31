@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Style.css"
 
-//Impor Images
+//Import Images
 import CodigoEtico from "../Imagenes/Codigo-etico.jpg"
 import Drivers from "../Imagenes/Drivers.jpg"
 import H6Series from "../Imagenes/H6 Series.jpg"

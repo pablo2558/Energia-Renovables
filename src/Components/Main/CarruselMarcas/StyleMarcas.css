@@ -13,14 +13,14 @@
   
   .swiper {
     width: auto;
-    height: 25rem;
+    height: 18rem;
     margin-top: 2.7rem;
   }
   
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: rgb(17, 89, 184);
+    background: rgb(255, 255, 255);
   
     /* Center slide text vertically */
     display: -webkit-box;
