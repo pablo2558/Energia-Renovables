@@ -5,7 +5,7 @@ import empresa from "./Image/empresa.jpg"
 const LaEmpresa = () => {
   return (
     <div className="lg:pt-40">
-      <div className="bg-cover bg-center w-screen bg-[url(https://w1.pngwing.com/pngs/133/387/png-transparent-3d-spain-map-drawing-threedimensional-space-3d-computer-graphics-water-water-resources.png)] h-screen">
+      <div className="bg-cover bg-center bg-[url(https://w1.pngwing.com/pngs/133/387/png-transparent-3d-spain-map-drawing-threedimensional-space-3d-computer-graphics-water-water-resources.png)] h-screen">
         <img src={logo12} alt="logo12" className="w-64 pt-40" />
         <div className="text-3xl">
           Construyendo futuro

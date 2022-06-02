@@ -8,7 +8,7 @@ import Texto from './Texto'
 const Main = () => {
   return (
     <div className="lg:pt-40">
-      <div className=" bg-cover bg-center w-screen bg-[url(https://img2.rtve.es/imagenes/memoria-delfin-energia-eolica-fuente-inagotable-12-10-20/1602422065497.jpg)] h-screen">
+      <div className=" bg-cover bg-center bg-[url(https://img2.rtve.es/imagenes/memoria-delfin-energia-eolica-fuente-inagotable-12-10-20/1602422065497.jpg)] h-screen">
         <img src={logo12} alt="imagen" className='w-64 pt-40' />
         <div className="text-3xl">
           Construyendo futuro
