@@ -1,244 +1,267 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "image": "/Image/Baterias.png",
-            "title": "Baterias",
-            "price": "$4500"
-        },
-        {
-            "id": 2,
-            "image": "/Image/Busbar.png",
-            "title": "Busbar",
-            "price": "$5500"
-        },
-        {
-            "id": 3,
-            "image": "/Image/Condensadores.png",
-            "title": "Condensadores",
-            "price": "$1300"
-        },
-        {
-            "id": 4,
-            "image": "/Image/Conectores.png",
-            "title": "Conectores",
-            "price": "$3300"
-        },
-        {
-            "id": 5,
-            "image": "/Image/Contactores.png",
-            "title": "Contactores",
-            "price": "6000"
-        },
-        {
-            "id": 6,
-            "image": "/Image/Disipadores.png",
-            "title": "Disipadores",
-            "price": "$2000"
-        },
-        {
-            "id": 7,
-            "image": "/Image/Fuente Alimentacion.png",
-            "title": "Fuentes de Alimentacion",
-            "price": "$7500"
-        },
-        {
-            "id": 8,
-            "image": "/Image/Fusibles.png",
-            "title": "Fusibles",
-            "price": "$5000"
-        },
-        {
-            "id": 9,
-            "image": "/Image/Interruptores.png",
-            "title": "Interruptores",
-            "price": "$3250"
-        },
-        {
-            "id": 10,
-            "image": "/Image/Modulo Potencia.png",
-            "title": "Modulo de Potencia",
-            "price": "$2200"
-        },
-        {
-            "id": 11,
-            "image": "/Image/Proteccion Sobretension.png",
-            "title": "Proteccion Sobretension",
-            "price": "$1100"
-        },
-        {
-            "id": 12,
-            "image": "/Image/Reles.png",
-            "title": "Reles",
-            "price": "$1500"
-        },
-        {
-            "id": 13,
-            "image": "/Image/Resistencias.png",
-            "title": "Resistencias",
-            "price": "$3400"
-        },
-        {
-            "id": 14,
-            "image": "/Image/Sensores Hall.png",
-            "title": "Sensores Efecto Hall",
-            "price": "$3421"
-        },
-        {
-            "id": 15,
-            "image": "/Image/Ultracaps.png",
-            "title": "Ultracaps",
-            "price": "$9000"
-        },
-        {
-            "id": 16,
-            "image": "/Image/Drivers Led.png",
-            "title": "Drivers",
-            "price": "$4540"
-        },
-        {
-            "id": 17,
-            "image": "/Image/Leds.png",
-            "title": "Leds",
-            "price": "$2350"
-        },
-        {
-            "id": 18,
-            "image": "/Image/Opticas Leds.png",
-            "title": "Opticas Led",
-            "price": "$6700"
-        },
-        {
-            "id": 19,
-            "image": "/Image/Aerosoles.png",
-            "title": "Aeresoles",
-            "price": "$2345"
-        },
-        {
-            "id": 20,
-            "image": "/Image/Drivers Led.png",
-            "title": "Drivers Led",
-            "price": "$1099"
-        },
-        {
-            "id": 21,
-            "image": "/Image/Leds.png",
-            "title": "Leds",
-            "price": "$3409"
-        },
-        {
-            "id": 22,
-            "image": "/Image/Aerosoles.png",
-            "title": "Aerosol",
-            "price": "$9670"
-        },
-        {
-            "id": 23,
-            "image": "/Image/Baterias1.png",
-            "title": "Baterias",
-            "price": "$4500"
-        },
-        {
-            "id": 24,
-            "image": "/Image/Busbar1.jpg",
-            "title": "Busbar",
-            "price": "$3300"
-        },
-        {
-            "id": 25,
-            "image": "/Image/Condensadores1.jpg",
-            "title": "Condensadores",
-            "price": "$8700"
-        },
-        {
-            "id": 26,
-            "image": "/Image/Conectores1.jpg",
-            "title": "Conectores",
-            "price": "$2200"
-        },
-        {
-            "id": 27,
-            "image": "/Image/Contactores1.jpg",
-            "title": "Contactores",
-            "price": "$4500"
-        },
-        {
-            "id": 28,
-            "image": "/Image/Disipadores1.jpg",
-            "title": "Disipadores",
-            "price": "$5432"
-        },
-        {
-            "id": 29,
-            "image": "/Image/Fuentes Alimentacion1.jpg",
-            "title": "Fuentes de Alimentacion",
-            "price": "$4500"
-        },
-        {
-            "id": 30,
-            "image": "/Image/Fusibles1.jpg",
-            "title": "Fusibles",
-            "price": "$2000"
-        },
-        {
-            "id": 31,
-            "image": "/Image/Interruptores1.jpg",
-            "title": "Interruptores",
-            "price": "$4000"
-        }, {
-            "id": 32,
-            "image": "/Image/Modulo Potencia1.jpg",
-            "title": "Modulo de Potencia",
-            "price": "$8400"
-        },
-        {
-            "id": 33,
-            "image": "/Image/Proteccion Sobretension1.jpg",
-            "title": "Proteccion Sobre Tension",
-            "price": "$4000"
-        },
-        {
-            "id": 34,
-            "image": "/Image/Reles1.jpg",
-            "title": "Reles",
-            "price": "$3400"
-        },
-        {
-            "id": 35,
-            "image": "/Image/Resistencias1.jpg",
-            "title": "Resistencia",
-            "price": "$4500"
-        },
-        {
-            "id": 36,
-            "image": "/Image/Sensores Hall1.jpg",
-            "title": "Sensores Efectos Hall",
-            "price": "$3300"
-        },
-        {
-            "id": 37,
-            "image": "/Image/Termostatos.jpg",
-            "title": "Termostatos",
-            "price": "$6000"
-        },
-        {
-            "id": 38,
-            "image": "/Image/Transformadores Planares.jpg",
-            "title": "Transformadores Planares",
-            "price": "$3900"
-        },
-        {
-            "id": 39,
-            "image": "/Image/Ultracaps1.jpg",
-            "title": "Ultracaps",
-            "price": "$2000"
-        },
-        {
-            "id": 40,
-            "image": "/Image/Ventiladores.jpg",
-            "title": "Ventiladores",
-            "price": "$3000"
-        }
-    ],
-    "cart": []
+  "products": [
+    {
+      "id": 1,
+      "image": "/Image/Baterias.png",
+      "title": "Baterias",
+      "price": 4500
+    },
+    {
+      "id": 2,
+      "image": "/Image/Busbar.png",
+      "title": "Busbar",
+      "price": 4500
+    },
+    {
+      "id": 3,
+      "image": "/Image/Condensadores.png",
+      "title": "Condensadores",
+      "price": 4500
+    },
+    {
+      "id": 4,
+      "image": "/Image/Conectores.png",
+      "title": "Conectores",
+      "price": 4500
+    },
+    {
+      "id": 5,
+      "image": "/Image/Contactores.png",
+      "title": "Contactores",
+      "price": 4500
+    },
+    {
+      "id": 6,
+      "image": "/Image/Disipadores.png",
+      "title": "Disipadores",
+      "price": 4500
+    },
+    {
+      "id": 7,
+      "image": "/Image/Fuente Alimentacion.png",
+      "title": "Fuentes de Alimentacion",
+      "price": 4500
+    },
+    {
+      "id": 8,
+      "image": "/Image/Fusibles.png",
+      "title": "Fusibles",
+      "price": 4500
+    },
+    {
+      "id": 9,
+      "image": "/Image/Interruptores.png",
+      "title": "Interruptores",
+      "price": 4500
+    },
+    {
+      "id": 10,
+      "image": "/Image/Modulo Potencia.png",
+      "title": "Modulo de Potencia",
+      "price": 4500
+    },
+    {
+      "id": 11,
+      "image": "/Image/Proteccion Sobretension.png",
+      "title": "Proteccion Sobretension",
+      "price": 4500
+    },
+    {
+      "id": 12,
+      "image": "/Image/Reles.png",
+      "title": "Reles",
+      "price": 4500
+    },
+    {
+      "id": 13,
+      "image": "/Image/Resistencias.png",
+      "title": "Resistencias",
+      "price": 4500
+    },
+    {
+      "id": 14,
+      "image": "/Image/Sensores Hall.png",
+      "title": "Sensores Efecto Hall",
+      "price": 4500
+    },
+    {
+      "id": 15,
+      "image": "/Image/Ultracaps.png",
+      "title": "Ultracaps",
+      "price": 4500
+    },
+    {
+      "id": 16,
+      "image": "/Image/Drivers Led.png",
+      "title": "Drivers",
+      "price": 4500
+    },
+    {
+      "id": 17,
+      "image": "/Image/Leds.png",
+      "title": "Leds",
+      "price": 4500
+    },
+    {
+      "id": 18,
+      "image": "/Image/Opticas Leds.png",
+      "title": "Opticas Led",
+      "price": 4500
+    },
+    {
+      "id": 19,
+      "image": "/Image/Aerosoles.png",
+      "title": "Aeresoles",
+      "price": 4500
+    },
+    {
+      "id": 20,
+      "image": "/Image/Drivers Led.png",
+      "title": "Drivers Led",
+      "price": 4500
+    },
+    {
+      "id": 21,
+      "image": "/Image/Leds.png",
+      "title": "Leds",
+      "price": 4500
+    },
+    {
+      "id": 22,
+      "image": "/Image/Aerosoles.png",
+      "title": "Aerosol",
+      "price": 4500
+    },
+    {
+      "id": 23,
+      "image": "/Image/Baterias1.png",
+      "title": "Baterias",
+      "price": 4500
+    },
+    {
+      "id": 24,
+      "image": "/Image/Busbar1.jpg",
+      "title": "Busbar",
+      "price": 4500
+    },
+    {
+      "id": 25,
+      "image": "/Image/Condensadores1.jpg",
+      "title": "Condensadores",
+      "price": 4500
+    },
+    {
+      "id": 26,
+      "image": "/Image/Conectores1.jpg",
+      "title": "Conectores",
+      "price": 4500
+    },
+    {
+      "id": 27,
+      "image": "/Image/Contactores1.jpg",
+      "title": "Contactores",
+      "price": 4500
+    },
+    {
+      "id": 28,
+      "image": "/Image/Disipadores1.jpg",
+      "title": "Disipadores",
+      "price": 4500
+    },
+    {
+      "id": 29,
+      "image": "/Image/Fuentes Alimentacion1.jpg",
+      "title": "Fuentes de Alimentacion",
+      "price": 4500
+    },
+    {
+      "id": 30,
+      "image": "/Image/Fusibles1.jpg",
+      "title": "Fusibles",
+      "price": 4500
+    },
+    {
+      "id": 31,
+      "image": "/Image/Interruptores1.jpg",
+      "title": "Interruptores",
+      "price": 4500
+    },
+    {
+      "id": 32,
+      "image": "/Image/Modulo Potencia1.jpg",
+      "title": "Modulo de Potencia",
+      "price": 4500
+    },
+    {
+      "id": 33,
+      "image": "/Image/Proteccion Sobretension1.jpg",
+      "title": "Proteccion Sobre Tension",
+      "price": 4500
+    },
+    {
+      "id": 34,
+      "image": "/Image/Reles1.jpg",
+      "title": "Reles",
+      "price": 4500
+    },
+    {
+      "id": 35,
+      "image": "/Image/Resistencias1.jpg",
+      "title": "Resistencia",
+      "price": 4500
+    },
+    {
+      "id": 36,
+      "image": "/Image/Sensores Hall1.jpg",
+      "title": "Sensores Efectos Hall",
+      "price": 4500
+    },
+    {
+      "id": 37,
+      "image": "/Image/Termostatos.jpg",
+      "title": "Termostatos",
+      "price": 4500
+    },
+    {
+      "id": 38,
+      "image": "/Image/Transformadores Planares.jpg",
+      "title": "Transformadores Planares",
+      "price": 4500
+    },
+    {
+      "id": 39,
+      "image": "/Image/Ultracaps1.jpg",
+      "title": "Ultracaps",
+      "price": 4500
+    },
+    {
+      "id": 40,
+      "image": "/Image/Ventiladores.jpg",
+      "title": "Ventiladores",
+      "price": 4500
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "image": "/Image/Baterias.png",
+      "title": "Baterias",
+      "price": 4500,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "image": "/Image/Busbar.png",
+      "title": "Busbar",
+      "price": 4500,
+      "quantity": 2
+    },
+    {
+      "id": 18,
+      "image": "/Image/Opticas Leds.png",
+      "title": "Opticas Led",
+      "price": 4500,
+      "quantity": 1
+    }
+  ]
 }

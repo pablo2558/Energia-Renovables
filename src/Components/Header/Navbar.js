@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import * as style from "./Style";
 import { BsCartDash } from "react-icons/bs";
@@ -9,11 +9,18 @@ import Sectores from './Sectores';
 import Productos from './Productos';
 import Contacto from './Contacto';
 import logo from "./Imagenes/logo.png";
-
+import { CartContainer } from '../Cart/ShopingCart';
 
 const Navbar = () => {
     const [Open, setOpen] = useState(false)
     const [productsLength, setproductsLength] = useState(0)
+    const {cart} = useContext(CartContainer)
+    useEffect(() => {
+      setproductsLength(
+        cart?.reduce((previous, current) => previous + current.quantity, 0)
+      );
+    }, [cart]);
+    
   return (
     <div className={style.ENCABEZADO}>
     <a className="flex items-center h-36 w-36 ml-2" href="/">

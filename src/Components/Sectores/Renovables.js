@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductsMap from '../Cart/ProductsMap';
 import logo12 from "../Main/Imagenes/logo12.png"
 
 const Renovables = () => {
@@ -40,6 +41,7 @@ const Renovables = () => {
         <div className="text-center text-4xl text-sky-700 mt-8">
            Productos de electrónica para energía renovable
         </div>
+        <ProductsMap/>
       </div>
     </div>
   );
