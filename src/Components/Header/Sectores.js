@@ -25,13 +25,13 @@ const Sectores = () => {
         <Link to="Renovables">Renovables</Link>
         </li>
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
-          Iluminacion
+          <Link to="Iluminacion">Iluminacion</Link>
         </li>
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
-          Industrial
+           <Link to="Industrial">Industrial</Link>
         </li>
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
-          Almacenamiento de energia
+          <Link to="Almacenamiento">Almacenamiento de energia</Link>
         </li>
       </ul>
 

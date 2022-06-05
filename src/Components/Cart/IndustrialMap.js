@@ -1,14 +1,17 @@
-import React, { useContext } from 'react'
-import Products from './Products'
+import React from 'react'
 import { CartContainer } from './ShopingCart'
+import { useContext } from 'react'
+import Products from './Products'
 
-const ProductsMap = () => {
+const IndustrialMap = () => {
     const {products, addToCart} = useContext(CartContainer)
-    const productos = products.filter(product => product.id < 15)
+    const industrial = products.filter((product) => {
+        return product.id > 18 && product.id < 38
+    })
   return (
     <div className='mt-4'>
       <div className='flex justify-evenly flex-wrap'>
-        {productos.map((product) => (
+        {industrial.map((product) => (
           <Products key={product.id} data={product} addToCart={addToCart} />
         ))}
       </div>
@@ -16,4 +19,4 @@ const ProductsMap = () => {
   )
 }
 
-export default ProductsMap
+export default IndustrialMap

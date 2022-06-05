@@ -170,7 +170,7 @@
     },
     {
       "id": 29,
-      "image": "/Image/Fuentes Alimentacion1.jpg",
+      "image": "/Image/Fuente Alimentacion1.jpg",
       "title": "Fuentes de Alimentacion",
       "price": 4500
     },
@@ -243,13 +243,6 @@
   ],
   "cart": [
     {
-      "id": 1,
-      "image": "/Image/Baterias.png",
-      "title": "Baterias",
-      "price": 4500,
-      "quantity": 2
-    },
-    {
       "id": 2,
       "image": "/Image/Busbar.png",
       "title": "Busbar",
@@ -260,6 +253,27 @@
       "id": 18,
       "image": "/Image/Opticas Leds.png",
       "title": "Opticas Led",
+      "price": 4500,
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "image": "/Image/Drivers Led.png",
+      "title": "Drivers",
+      "price": 4500,
+      "quantity": 1
+    },
+    {
+      "id": 17,
+      "image": "/Image/Leds.png",
+      "title": "Leds",
+      "price": 4500,
+      "quantity": 1
+    },
+    {
+      "id": 29,
+      "image": "/Image/Fuente Alimentacion1.jpg",
+      "title": "Fuentes de Alimentacion",
       "price": 4500,
       "quantity": 1
     }
