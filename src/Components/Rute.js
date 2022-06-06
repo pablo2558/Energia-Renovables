@@ -5,6 +5,7 @@ import Navbar from './Header/Navbar'
 import Main from './Main/Main'
 import Historia from './Nosotros/Historia'
 import LaEmpresa from './Nosotros/LaEmpresa'
+import Productos from './Productos/Productos'
 import Iluminacion from './Sectores/Iluminacion'
 import Industrial from './Sectores/Industrial'
 import Renovables from './Sectores/Renovables'
@@ -24,6 +25,7 @@ const Rute = () => {
                 <Route path='Iluminacion' element={ <Iluminacion/> } />
                 <Route path='Industrial' element={ <Industrial/> } />
                 <Route path='Almacenamiento' element={ <Storage/> } />
+                <Route path='Productos' element={ <Productos/> } />
                 <Route path='Carrito' element={ <CartMap/> } />
             </Routes>
         </Router>

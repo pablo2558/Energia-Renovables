@@ -20,7 +20,7 @@ const Industrial = () => {
         El mercado de los equipos de conversión de potencia es muy exigente.
         Desde la placa disparadora de un IGBT, pasando por el disipador del
         stack, los condensadores del DClink, el seccionador de potencia o
-        incluso el cálculo de un fusible de protección, exige un alto grado de
+        incluso el cálculo de un, <a href='https://www.bocajuniors.com.ar/home'> <strong>boca juniors</strong></a> exige un alto grado de
         conocimiento por parte de nuestros clientes; conscientes de ello, en
         Inelec trabajamos con los mejores proveedores de productos para el
         sector de conversión de potencia, y ponemos a disposición de los
