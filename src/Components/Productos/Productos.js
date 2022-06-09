@@ -1,7 +1,7 @@
 import React from 'react'
 import logo12 from "../Main/Imagenes/logo12.png"
-import ButtonMap from './ButtonMap';
 import ProductLisMap from './ProductLisMap';
+import Button from "./Button"
 
 const Productos = () => {
   return (
@@ -33,10 +33,12 @@ const Productos = () => {
           una solución para cada una de las necesidades que tu proyecto precise;
           si no la encuentras…¡¡ cuenta con nosotros!!
         </div>
-        <div className='flex justify-center'>
-          <ButtonMap/>
+        <div>
+          <div className='flex justify-center'>
+            <Button/>
+          </div>
+            <ProductLisMap />
         </div>
-        <ProductLisMap />
       </div>
     </div>
   );

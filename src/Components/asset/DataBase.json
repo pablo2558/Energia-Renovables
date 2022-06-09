@@ -243,39 +243,11 @@
   ],
   "cart": [
     {
-      "id": 2,
-      "image": "/Image/Busbar.png",
-      "title": "Busbar",
-      "price": 4500,
-      "quantity": 2
-    },
-    {
-      "id": 18,
-      "image": "/Image/Opticas Leds.png",
-      "title": "Opticas Led",
-      "price": 4500,
-      "quantity": 1
-    },
-    {
-      "id": 16,
-      "image": "/Image/Drivers Led.png",
-      "title": "Drivers",
-      "price": 4500,
-      "quantity": 1
-    },
-    {
-      "id": 17,
-      "image": "/Image/Leds.png",
-      "title": "Leds",
-      "price": 4500,
-      "quantity": 1
-    },
-    {
       "id": 3,
       "image": "/Image/Condensadores.png",
       "title": "Condensadores",
       "price": 4500,
-      "quantity": 1
+      "quantity": 2
     }
   ]
 }

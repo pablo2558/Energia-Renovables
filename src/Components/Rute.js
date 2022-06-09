@@ -27,6 +27,12 @@ const Rute = () => {
                 <Route path='Almacenamiento' element={ <Storage/> } />
                 <Route path='Productos' element={ <Productos/> } />
                 <Route path='Carrito' element={ <CartMap/> } />
+                <Route path='Productos/Informacion' element="" />
+                <Route path='Productos/Todos-1' element="" />
+                <Route path='Productos/Todos' element="" />
+                <Route path='Productos/Todos' element="" />
+                <Route path='Productos/Todos' element="" />
+                <Route path='Productos/Todos' element="" />
             </Routes>
         </Router>
     </div>
