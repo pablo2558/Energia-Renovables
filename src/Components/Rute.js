@@ -1,6 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import CartMap from './Cart/CartMap'
+import Payment from './Cart/Payment'
+import PaymentMap from './Cart/PaymentMap'
 import Navbar from './Header/Navbar'
 import Main from './Main/Main'
 import Historia from './Nosotros/Historia'
@@ -27,6 +29,7 @@ const Rute = () => {
                 <Route path='Almacenamiento' element={ <Storage/> } />
                 <Route path='Productos' element={ <Productos/> } />
                 <Route path='Carrito' element={ <CartMap/> } />
+                <Route path='Carrito/Information' element={ <PaymentMap/> } />
                 <Route path='Productos/Informacion' element="" />
                 <Route path='Productos/Todos-1' element="" />
                 <Route path='Productos/Todos' element="" />
