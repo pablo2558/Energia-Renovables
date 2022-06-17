@@ -247,7 +247,28 @@
       "image": "/Image/Condensadores.png",
       "title": "Condensadores",
       "price": 4500,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "image": "/Image/Conectores.png",
+      "title": "Conectores",
+      "price": 4500,
       "quantity": 2
+    },
+    {
+      "id": 10,
+      "image": "/Image/Modulo Potencia.png",
+      "title": "Modulo de Potencia",
+      "price": 4500,
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "image": "/Image/Proteccion Sobretension.png",
+      "title": "Proteccion Sobretension",
+      "price": 4500,
+      "quantity": 1
     }
   ]
 }
