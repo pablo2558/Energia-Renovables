@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CartItems = ({data, addToCart, deleteFromCart}) => {
-  const {title, price, quantity} = data
+  const {title, price, quantity, image} = data
   return (
     <div className="">
       <table className="w-full table-fixed">
@@ -12,7 +12,10 @@ const CartItems = ({data, addToCart, deleteFromCart}) => {
         </tr>
         <tr>
           <td className=" border-y-4 text-black">
-            <h4> {title} </h4>
+            <div className="overflow-hidden rounded-lg w-16 h-16 bg-gray-50 border border-gray-200">
+              <img src={image} alt="" />
+            </div>
+            <h6 className="font-semibold uppercase text-gray-600"> {title} </h6>
           </td>
           <td className=" border-y-4 text-black w-1/2">
             <h5>
@@ -35,9 +38,11 @@ const CartItems = ({data, addToCart, deleteFromCart}) => {
         >
           Eliminar todos
         </button>
-        <button onClick={() => addToCart(data)}
-         className='border border-white rounded-lg px-4 text-white font-semibold mt-6 mb-6 bg-amber-500 hover:bg-orange-700'>
-          Agregar Item 
+        <button
+          onClick={() => addToCart(data)}
+          className="border border-white rounded-lg px-4 text-white font-semibold mt-6 mb-6 bg-amber-500 hover:bg-orange-700"
+        >
+          Agregar Item
         </button>
       </table>
     </div>

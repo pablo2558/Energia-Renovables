@@ -4,7 +4,7 @@ import { useContext } from 'react'
 import Payment from './Payment'
 import { Link } from 'react-router-dom'
 
-const PaymentMap = ({price, quantity}) => {
+const PaymentMap = () => {
     const {cart} = useContext(CartContainer)
     const total =  cart?.reduce((previus, current) => previus + current.quantity * current.price, 0);
     
