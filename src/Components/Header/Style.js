@@ -1,6 +1,4 @@
-export const NAVBAR_INTEMS = "my-8 uppercase text-slate-100  "
-
-export const NAVBAR_MOBILE = ""
+export const NAVBAR_INTEMS = "my-8 uppercase text-slate-100 "
 
 export const BOTON_ACCESOCLIENTES = "text-slate-50 text-sm border px-4 py-2 rounded-lg hover:border-orange-600 hover:text-orange-600"
 

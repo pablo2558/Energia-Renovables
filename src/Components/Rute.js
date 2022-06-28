@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import CartMap from './Cart/CartMap'
 import PaymentMap from './Cart/PaymentMap'
 import ProductsMap from './Cart/ProductsMap'
+import Footer from './Footer/Footer'
 import Navbar from './Header/Navbar'
 import Main from './Main/Main'
 import Historia from './Nosotros/Historia'
@@ -37,6 +38,7 @@ const Rute = () => {
                 <Route path='Productos/Todos' element="" />
                 <Route path='Productos/Todos' element="" />
             </Routes>
+            <Footer/>
         </Router>
     </div>
   )
