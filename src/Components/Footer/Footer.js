@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -203,9 +204,9 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <Link to="Cookies" className="text-white" target="_blank">
                     Politica de Cookies
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#!" className="text-white">
