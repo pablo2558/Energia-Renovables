@@ -240,7 +240,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#!" className="text-white">
-                  Todos los derechos reservados
+                  Todos los derechos reservados/
                   </a>
                 </li>
               </ul>
