@@ -10,6 +10,7 @@ import Productos from './Productos';
 import Contacto from './Contacto';
 import logo from "./Imagenes/logo.png";
 import { CartContainer } from '../Cart/ShopingCart';
+import logo12 from "../Main/Imagenes/logo12.png"
 
 const Navbar = () => {
     const [Open, setOpen] = useState(false)
@@ -39,7 +40,7 @@ const Navbar = () => {
         </div>
 
         <div className={Open ? "showMenuNav" : "hideMenuNav"}>
-          <div
+          <div //cruz
             className="absolute top-0 right-0 px-8 py-8 bg-sky-700"
             onClick={() => setOpen(false)}
           >
@@ -56,7 +57,8 @@ const Navbar = () => {
               <line x1="6" y1="6" x2="18" y2="18" className='text-white' />
             </svg>
           </div>
-          <ul className="flex flex-col items-center justify-between min-h-[250px]">
+          <ul className={style.NAVBAR_INTEMS_1}>
+           <img src={logo12} alt='image' className='w-24'/>
             <li className={style.NAVBAR_INTEMS}>
               <Link to="/">
                 <Inicio/>

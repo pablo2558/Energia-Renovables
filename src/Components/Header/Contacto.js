@@ -20,11 +20,11 @@ const Contacto = () => {
         className="bg-sky-700 rounded-sm transform scale-0 group-hover:scale-100 absolute 
       transition duration-150 ease-in-out origin-top min-w-32"
       >
-        <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
-          LinkedIn
+        <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white" >
+          <a href='https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGKi1HIQyzKsAAAAYG_d_3oQi8OmJpsAqwmWX3gFuWDetMZGYp2EETKrvh4TlA64qHC2EgK7DT_7dSFJnLTBaUUH72f0FHfGoWSUq1VyNMehCv9JbX_easTsLC6xtigOQwK2_k=&original_referer=https://www.inelec.net/&sessionRedirect=https%3A%2F%2Fes.linkedin.com%2Fcompany%2Finelec-spain' alt="LinkedIn" >LinkedIn</a> 
         </li>
         <li className="rounded-sm px-3 py-1 hover:bg-sky-600 text-white">
-          LinkedIn Lighting
+          <a href='https://es.linkedin.com/showcase/inelec-lighting' alt="LinkedIn Lighting" >LinkedIn Lighting</a> 
         </li>
       </ul>
       <div />
