@@ -199,9 +199,9 @@ const Footer = () => {
             <div className="mb-6">
               <ul className="list-none mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                  Politica de Privacidad
-                  </a>
+                  <Link to="Privacy" className="text-white" target="_blank">
+                   Politica de Privacidad
+                  </Link>
                 </li>
                 <li>
                   <Link to="Cookies" className="text-white" target="_blank">
@@ -209,12 +209,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="https://www.inelec.net/wp-content/uploads/2020/12/Politica-Calidad-Inelec.pdf" className="text-white" target="_blank">
                     Politica de Calidad 
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="https://www.inelec.net/wp-content/uploads/2022/04/Declaracion-Firmada.pdf" className="text-white" target="_blank">
                     Politica medio Ambiental
                   </a>
                 </li>
@@ -225,14 +225,14 @@ const Footer = () => {
 
               <ul className="list-none mb-0">
                 <li>
-                  <a href="#!" className="text-white">
+                  <a href="https://www.inelec.net/wp-content/uploads/2022/04/C%C3%B3digo-Etico-para-distribuci%C3%B3n.pdf" className="text-white" target="_blank">
                     Codigo Etico
                   </a>
                 </li>
                 <li>
-                  <a href="#!" className="text-white">
+                  <Link to="LegalNotice" className="text-white" target="_blank">
                   Aviso Legal
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#!" className="text-white">

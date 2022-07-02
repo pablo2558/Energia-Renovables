@@ -4,10 +4,12 @@ import CartMap from './Cart/CartMap'
 import PaymentMap from './Cart/PaymentMap'
 import Cookies from './Footer/Cookies'
 import Footer from './Footer/Footer'
+import LegalNotice from './Footer/LegalNotice'
+import Privacy from './Footer/Privacy'
 import Navbar from './Header/Navbar'
 import Main from './Main/Main'
-import Historia from './Nosotros/Historia'
-import LaEmpresa from './Nosotros/LaEmpresa'
+import Historia from './Nosotros/Histori'
+import LaEmpresa from './Nosotros/TheCompany'
 import Productos from './Productos/Productos'
 import Iluminacion from './Sectores/Iluminacion'
 import Industrial from './Sectores/Industrial'
@@ -33,8 +35,8 @@ const Rute = () => {
                 <Route path='Carrito/Information' element={ <PaymentMap/> } />
                 <Route path='Productos/Informacion' element={ <Main/> } />
                 <Route path='Cookies' element={ <Cookies/> } />
-                <Route path='Productos/Renovables-1' element="" />
-                <Route path='Productos/Todos' element="" />
+                <Route path='Privacy' element={ <Privacy/> } />
+                <Route path='LegalNotice' element={ <LegalNotice/> } />
                 <Route path='Productos/Todos' element="" />
                 <Route path='Productos/Todos' element="" />
             </Routes>
