@@ -3,6 +3,7 @@ import { CartContainer } from './ShopingCart'
 import { useContext } from 'react'
 import Payment from './Payment'
 import { Link } from 'react-router-dom'
+import MediosPagos from "./Image/Pagos.png"
 
 const PaymentMap = () => {
     const {cart} = useContext(CartContainer)
@@ -146,10 +147,9 @@ const PaymentMap = () => {
                   <div className="w-full p-3 border-b border-gray-200">
                     <div className="mb-5">
                       <label for="type1" className="flex items-center cursor-pointer"/>
-                        <div type="radio" className="form-radio h-5 w-5 text-indigo-500" name="type" id="type1" checked>
-                          <img src="https://leadershipmemphis.org/wp-content/uploads/2020/08/780370.png" className="h-6 ml-3">
-                          </img>
-                        </div>
+                        <input type="radio" className="form-radio h-5 w-5 text-indigo-500" name="type" id="type1" checked/>
+                         <img src={MediosPagos} alt='Tarjeta' className="h-6 ml-3"/>
+                          
                         <div>
                           <div className="mb-3">
                             <label className="text-gray-600 font-semibold text-sm mb-2 ml-1">Nombre en la tarjeta</label>

@@ -243,25 +243,18 @@
   ],
   "cart": [
     {
-      "id": 4,
-      "image": "/Image/Conectores.png",
-      "title": "Conectores",
+      "id": 2,
+      "image": "/Image/Busbar.png",
+      "title": "Busbar",
       "price": 4500,
       "quantity": 1
     },
     {
-      "id": 16,
-      "image": "/Image/Drivers Led.png",
-      "title": "Drivers",
+      "id": 3,
+      "image": "/Image/Condensadores.png",
+      "title": "Condensadores",
       "price": 4500,
       "quantity": 2
-    },
-    {
-      "id": 22,
-      "image": "/Image/Aerosoles.png",
-      "title": "Aerosol",
-      "price": 4500,
-      "quantity": 1
     }
   ]
 }
