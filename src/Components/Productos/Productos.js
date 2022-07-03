@@ -23,7 +23,7 @@ const Productos = () => {
             className="titulo" target="_blank">Consulta aquí nuestro listado de productos en stock</a></strong> 
           . Si necesitas asesoramiento no dudes en contactar con nosotros,
           estaremos encantados de ayudarte a encontrar el componente electrónico
-          que necesitas. Clic aquí para descargar el listado.
+          que necesitas. <strong><a href='Stock-Excesivo-Enero-2022.xlsx' download>Clic aquí para descargar el listado.</a></strong>
         </div>
         <div className="text-center text-4xl text-sky-700 mt-8">
           Catálogo online de productos de electrónica
