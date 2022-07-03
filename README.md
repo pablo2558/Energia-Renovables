@@ -17,6 +17,11 @@ Este Proyecto trabaja con los siguientes paquetes:
 *react-icons*
 *tailwindCSS*
 *swiper*
+* [Github](https://github.com/eduardofierropro)
+* [Youtube](https://youtube.com/EduardoFierroPro)
+* [Twitch](https://twitch.tv/eduardofierropro)
+* [Instagram](https://instagram.com/eduardofierro.pro)
+* [Twitter](https://twitter.com/edfierropro)
 
 ## Contacto
 pablocaeno9gmail.com
