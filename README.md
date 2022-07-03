@@ -3,7 +3,7 @@ Imitación de una web hecha con React js que se dedica a la venta de productos e
 
 ## Autor ✒️
 *Pablo Caneo*
-* [LinkedIn//https://www.linkedin.com/in/pablo-caneo/
+* [LinkedIn](https://www.linkedin.com/in/pablo-caneo/)
 
 ## Ver Ejemplo en vivo
 
