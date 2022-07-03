@@ -18,7 +18,7 @@ Luego iniciar React con npm start en el puerto 3001.
 * swiper
 
 ## Contacto
-pablocaeno9gmail.com
+pablocaneo9@gmail.com
 
 ## Licencia 📄
 MIT Public License v3.0
