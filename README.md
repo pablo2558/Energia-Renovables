@@ -1,5 +1,5 @@
 ## Descripción
-Imitación de una web que dedica a la venta de productos electronicos en ambito de las energías renovables, automoción, ferroviario, lighting... etc.
+Imitación de una web hecha con React js que se dedica a la venta de productos electronicos en el ambito de las energías renovables, automoción, ferroviario, lighting... etc.
 
 ## Autor ✒️
 *Pablo Caneo*
