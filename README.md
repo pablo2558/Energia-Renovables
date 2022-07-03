@@ -16,6 +16,7 @@ Luego iniciar React con npm start en el puerto 3001.
 * react-router-dom
 * tailwindCSS
 * swiper
+* react-icons
 
 ## Contacto
 pablocaneo9@gmail.com
