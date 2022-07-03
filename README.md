@@ -10,7 +10,7 @@ Imitación de una web hecha con React js que se dedica a la venta de productos e
 ## Intalacion
 Primero levantar la base de datos con json-server: 
 * json-server --watch src/Components/asset/DataBase.json.
-* Luego iniciar React con npm start en el puerto 3001.
+* Luego iniciar React con npm start.
 * Este Proyecto trabaja con los siguientes paquetes: 
 * axios
 * json-server
