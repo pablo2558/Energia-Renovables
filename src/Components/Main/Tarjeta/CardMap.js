@@ -1,5 +1,5 @@
 import React from 'react'
-import Tarjeta from './Tarjeta'
+import Tarjeta from './Card'
 import Molinos from "../Imagenes/Molinos.jpg"
 import Iluminacion from "../Imagenes/Iluminacion.jpg"
 import Industriales from "../Imagenes/Industriales.jpg"

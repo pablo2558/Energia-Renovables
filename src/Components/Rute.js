@@ -10,10 +10,10 @@ import Navbar from './Header/Navbar'
 import Main from './Main/Main'
 import Historia from './Nosotros/Histori'
 import LaEmpresa from './Nosotros/TheCompany'
-import Productos from './Productos/Productos'
-import Iluminacion from './Sectores/Iluminacion'
+import Productos from './Productos/Products'
+import Iluminacion from './Sectores/Ilumination'
 import Industrial from './Sectores/Industrial'
-import Renovables from './Sectores/Renovables'
+import Renovables from './Sectores/Renewable'
 import Storage from './Sectores/Storage'
 
 

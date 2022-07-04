@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import * as style from "./Style";
 import { BsCartDash } from "react-icons/bs";
 import { useState, useEffect } from 'react';
-import Inicio from './Inicio';
-import Nosotros from './Nosotros';
-import Sectores from './Sectores';
-import Productos from './Productos';
-import Contacto from './Contacto';
-import logo from "./Imagenes/logo.png";
+import Inicio from './Start';
+import Nosotros from './Us';
+import Sectores from './Sectors';
+import Productos from './Products';
+import Contacto from './Contact';
+import logo from "./Image/logo.png";
 import { CartContainer } from '../Cart/ShopingCart';
 import logo12 from "../Main/Imagenes/logo12.png"
 

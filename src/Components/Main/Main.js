@@ -1,8 +1,8 @@
 import React from 'react'
 import App from './Carrusel/App'
-import AppMarcas from './CarruselMarcas/AppMarcas'
+import AppMarcas from './CarruselMarcas/MarksApp'
 import logo12 from "./Imagenes/logo12.png"
-import TarjetaMap from './Tarjeta/TarjetaMap'
+import TarjetaMap from './Tarjeta/CardMap'
 import Texto from './Texto'
 
 const Main = () => {
