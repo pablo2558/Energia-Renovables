@@ -1,4 +1,5 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 import App from './Carrusel/App'
 import AppMarcas from './CarruselMarcas/MarksApp'
 import logo12 from "./Imagenes/logo12.png"

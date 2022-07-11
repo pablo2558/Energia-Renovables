@@ -1,7 +1,13 @@
 import React from 'react'
 import logo12 from "../Main/Imagenes/logo12.png"
+import { Link, Route, Routes } from 'react-router-dom';
+import AllMap from './AllMap';
+import RenewableMap from './RenewableMap';
+import IndustrialMap1 from './IndustrialMap1';
+import StorageMap1 from './StorageMap1';
 import ProductLisMap from './ProductLisMap';
-import Button from "./Button"
+
+
 
 const Productos = () => {
   return (
@@ -35,9 +41,21 @@ const Productos = () => {
         </div>
         <div>
           <div className='flex justify-center'>
-            <Button/>
+           <div className="flex space-x-6 flex-wrap">
+              <Link to="Todos"  className='rounded-lg px-4 text-white font-semibold mt-4 mb-4 bg-amber-500 hover:bg-orange-700 w-40 h-11 text-xl'>Todos</Link>  
+              <Link to="Renovables-1"  className='rounded-lg px-4 text-white font-semibold mt-4 mb-4 bg-amber-500 hover:bg-orange-700 w-40 h-11 text-xl'>Renovables</Link>
+              <Link to="Iluminacion-1" className='rounded-lg px-4 text-white font-semibold mt-4 mb-4 bg-amber-500 hover:bg-orange-700 w-40 h-11 text-xl'>Iluminacion</Link>
+              <Link to="Industrial-1"  className='rounded-lg px-4 text-white font-semibold mt-4 mb-4 bg-amber-500 hover:bg-orange-700 w-40 h-11 text-xl'>Industrial</Link>
+              <Link to="Alm-Energia" className='rounded-lg px-4 text-white font-semibold mt-4 mb-4 bg-amber-500 hover:bg-orange-700 w-40 h-11 text-xl'>Alm. Energia</Link>
+           </div>
           </div>
-            <ProductLisMap />
+          <Routes>
+            <Route path="Todos" element={ <ProductLisMap/> } />
+            <Route path="Renovables-1" element={ <RenewableMap/> } />
+            <Route path="Iluminacion-1" element={ <AllMap/> } />
+            <Route path="Industrial-1" element={ <IndustrialMap1/> } />
+            <Route path="Alm-Energia" element={ <StorageMap1/> } />
+          </Routes>
         </div>
       </div>
     </div>
