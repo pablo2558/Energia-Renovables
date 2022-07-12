@@ -46,7 +46,8 @@
       "id": 7,
       "image": "/Image/Fuente Alimentacion.png",
       "title": "Fuentes de Alimentacion",
-      "price": 4500
+      "price": 4500,
+      "description": "Actualmente los requerimientos de disipación en espacios reducidos aumentan y mediante los radiadores se consiguen valores realmente buenos."
     },
     {
       "id": 8,
