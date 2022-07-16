@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Mi-Proyecto-con-React/static/css/main.44cc89ff.css",
+    "main.js": "/Mi-Proyecto-con-React/static/js/main.d4a0f1b2.js",
+    "static/js/787.c25309a5.chunk.js": "/Mi-Proyecto-con-React/static/js/787.c25309a5.chunk.js",
+    "static/media/Molinos.jpg": "/Mi-Proyecto-con-React/static/media/Molinos.6ea11d37e823322c4363.jpg",
+    "static/media/Industriales.jpg": "/Mi-Proyecto-con-React/static/media/Industriales.385a278520fff0ff3843.jpg",
+    "static/media/H6 Series.jpg": "/Mi-Proyecto-con-React/static/media/H6 Series.53bf70ca900145ee6772.jpg",
+    "static/media/Stock.jpg": "/Mi-Proyecto-con-React/static/media/Stock.5012d6ce6fa6c220be30.jpg",
+    "static/media/Drivers.jpg": "/Mi-Proyecto-con-React/static/media/Drivers.cc1f3044f2785c45e327.jpg",
+    "static/media/Ventilador.jpg": "/Mi-Proyecto-con-React/static/media/Ventilador.21cb758bbfade325e642.jpg",
+    "static/media/Puerto.jpg": "/Mi-Proyecto-con-React/static/media/Puerto.1271fe72f937343120c7.jpg",
+    "static/media/Imagen PC.jpg": "/Mi-Proyecto-con-React/static/media/Imagen PC.bd08818621ebdf1310a0.jpg",
+    "static/media/Baterias.png": "/Mi-Proyecto-con-React/static/media/Baterias.ee6c5241b7b17be0858e.png",
+    "static/media/Codigo-etico.jpg": "/Mi-Proyecto-con-React/static/media/Codigo-etico.346ea570492ab98640df.jpg",
+    "static/media/Semikron.png": "/Mi-Proyecto-con-React/static/media/Semikron.a36ed9d91cbad84007f1.png",
+    "static/media/Raycap.png": "/Mi-Proyecto-con-React/static/media/Raycap.afb5d5e045c9b2907a2e.png",
+    "static/media/Vishay.png": "/Mi-Proyecto-con-React/static/media/Vishay.46bee1b1ca223aec137f.png",
+    "static/media/Comepa.png": "/Mi-Proyecto-con-React/static/media/Comepa.cd37d1bc2ab35b58d63e.png",
+    "static/media/Productos varios.jpg": "/Mi-Proyecto-con-React/static/media/Productos varios.fdee2c6e8e7f47294a40.jpg",
+    "static/media/empresa.jpg": "/Mi-Proyecto-con-React/static/media/empresa.5b101639cb2a57894c0c.jpg",
+    "static/media/logo12.png": "/Mi-Proyecto-con-React/static/media/logo12.0f91c5f305717cfac5a5.png",
+    "static/media/Busbar.png": "/Mi-Proyecto-con-React/static/media/Busbar.f1489c87c9b3156cd4dd.png",
+    "static/media/Ligitek.png": "/Mi-Proyecto-con-React/static/media/Ligitek.c7114c77f5c7dd6fe8d9.png",
+    "static/media/Arcol.png": "/Mi-Proyecto-con-React/static/media/Arcol.3a27af1f50c7519c6113.png",
+    "static/media/Mitsubishi.png": "/Mi-Proyecto-con-React/static/media/Mitsubishi.3cfea52c240043b77e6f.png",
+    "static/media/Sensata.png": "/Mi-Proyecto-con-React/static/media/Sensata.d9927310a355fd4cf20c.png",
+    "static/media/Iluminacion.jpg": "/Mi-Proyecto-con-React/static/media/Iluminacion.640c460ea512c6fd5e22.jpg",
+    "static/media/Harting.jpg": "/Mi-Proyecto-con-React/static/media/Harting.067c888ddcc1200d6904.jpg",
+    "static/media/Pagos.png": "/Mi-Proyecto-con-React/static/media/Pagos.d8a50905aa28f1ea45c8.png",
+    "static/media/Paneles.jpg": "/Mi-Proyecto-con-React/static/media/Paneles.755484c32815beabfce6.jpg",
+    "index.html": "/Mi-Proyecto-con-React/index.html",
+    "main.44cc89ff.css.map": "/Mi-Proyecto-con-React/static/css/main.44cc89ff.css.map",
+    "main.d4a0f1b2.js.map": "/Mi-Proyecto-con-React/static/js/main.d4a0f1b2.js.map",
+    "787.c25309a5.chunk.js.map": "/Mi-Proyecto-con-React/static/js/787.c25309a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44cc89ff.css",
+    "static/js/main.d4a0f1b2.js"
+  ]
+}
