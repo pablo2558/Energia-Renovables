@@ -4,7 +4,7 @@ const Productos = () => {
   return (
     <div className="group inline-block">
       <button className="outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32 text-white">
-        <span className="pr-1 font-semibold flex-1">Productos</span>
+        <span className="pr-1 flex-1">PRODUCTOS</span>
       </button>
       <div />
 

@@ -6,6 +6,7 @@ import Cookies from './Footer/Cookies'
 import Footer from './Footer/Footer'
 import LegalNotice from './Footer/LegalNotice'
 import Privacy from './Footer/Privacy'
+import Error404 from './Header/Error404'
 import Navbar from './Header/Navbar'
 import Main from './Main/Main'
 import Historia from './Nosotros/Histori'
@@ -38,6 +39,7 @@ const Rute = () => {
                 <Route path='Cookies' element={ <Cookies/> } />
                 <Route path='Privacy' element={ <Privacy/> } />
                 <Route path='LegalNotice' element={ <LegalNotice/> } />
+                <Route path='*' element={ <Error404/> } />
             </Routes>
             <Footer/>
         </Router>

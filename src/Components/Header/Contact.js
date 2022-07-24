@@ -4,7 +4,7 @@ const Contacto = () => {
   return (
     <div className="group inline-block">
       <button className="outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32 text-white">
-        <span className="pr-1 font-semibold flex-1">Contacto</span>
+        <span className="pr-1  flex-1">CONTACTO</span>
         <span>
           <svg
             className="fill-current h-4 w-4 transform group-hover:-rotate-180

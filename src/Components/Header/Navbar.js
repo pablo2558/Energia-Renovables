@@ -59,25 +59,34 @@ const Navbar = () => {
           </div>
           <ul className={style.NAVBAR_INTEMS_1}>
            <img src={logo12} alt='image' className='w-24'/>
-            <li className={style.NAVBAR_INTEMS}>
-              <Link to="/">
+           <li className={style.NAVBAR_INTEMS}>
+              <Link to="/" onClick={() => setOpen(false)} >
                 <Inicio/>
               </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Nosotros"><Nosotros/></Link>
+              <Link to="LaEmpresa" onClick={() => setOpen(false)}> La Empresa </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Sectores"><Sectores/></Link>
+              <Link to="Historia" onClick={() => setOpen(false)} > Historia </Link>
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Productos"><Productos/></Link>
+                <Link to="Renovables" onClick={() => setOpen(false)} > Renovables </Link> 
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Contacto"><Contacto/></Link>
+                <Link to="Iluminacion" onClick={() => setOpen(false)} > Iluminacion </Link> 
             </li>
             <li className={style.NAVBAR_INTEMS}>
-              <Link to="Carrito">
+                <Link to="Industrial" onClick={() => setOpen(false)} > Industrial </Link> 
+            </li>
+            <li className={style.NAVBAR_INTEMS}>
+                <Link to="Almacenamiento" onClick={() => setOpen(false)} > Alm. Energia </Link> 
+            </li>
+            <li className={style.NAVBAR_INTEMS}>
+              <Link to="Productos" onClick={() => setOpen(false)}><Productos/></Link>
+            </li>
+            <li className={style.NAVBAR_INTEMS}>
+              <Link to="Carrito" onClick={() => setOpen(false)} >
                 <div>
                   <BsCartDash className='text-white' />
                 </div>

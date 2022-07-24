@@ -1,4 +1,4 @@
-export const NAVBAR_INTEMS = "my-8 uppercase text-slate-100 "
+export const NAVBAR_INTEMS = "my-5 uppercase text-slate-100 "
 
 export const NAVBAR_INTEMS_1 = "flex flex-col items-center justify-between min-h-[250px] w-screen bg-sky-700"
 

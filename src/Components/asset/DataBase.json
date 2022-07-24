@@ -287,13 +287,21 @@
       "image": "/Image/Interruptores.png",
       "title": "Interruptores",
       "price": 4500,
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": 11,
       "image": "/Image/Proteccion Sobretension.png",
       "title": "Proteccion Sobretension",
       "price": 4500,
+      "quantity": 1
+    },
+    {
+      "id": 16,
+      "image": "/Image/Drivers Led.png",
+      "title": "Drivers",
+      "price": 4500,
+      "description": "El funcionamiento y la duración de una luminaria LED depende en gran medida del driver que estabiliza la corriente y proporciona protección térmica.",
       "quantity": 1
     }
   ]
