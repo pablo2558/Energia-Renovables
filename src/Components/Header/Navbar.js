@@ -24,108 +24,130 @@ const Navbar = () => {
     
   return (
     <div className={style.ENCABEZADO}>
-    <a className="flex items-center h-36 w-36 ml-2" href="/">
-      <img src={logo} alt="logo" className="right-1" />
-      <h3 className="text-slate-100 text-2xl font-bold"></h3>
-    </a>
-    <nav className="">
-      <section className="MOBILE-MENU flex mr-8 lg:hidden ">
-        <div
-          className="HAMBURGER-ICON space-y-2"
-          onClick={() => setOpen((el) => !el)}
-        >
-          <span className={style.SPAN}></span>
-          <span className={style.SPAN}></span>
-          <span className={style.SPAN}></span>
-        </div>
-
-        <div className={Open ? "showMenuNav" : "hideMenuNav"}>
-          <div //cruz
-            className="absolute top-0 right-0 px-8 py-8 bg-sky-700"
-            onClick={() => setOpen(false)}
-          >
-            <svg
-              className="h-8 w-8 text-gray-600"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <line x1="18" y1="6" x2="6" y2="18" className="text-white" />
-              <line x1="6" y1="6" x2="18" y2="18" className='text-white' />
-            </svg>
-          </div>
-          <ul className={style.NAVBAR_INTEMS_1}>
-           <img src={logo12} alt='image' className='w-24'/>
-           <li className={style.NAVBAR_INTEMS}>
-              <Link to="/" onClick={() => setOpen(false)} >
-                <Inicio/>
-              </Link>
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-              <Link to="LaEmpresa" onClick={() => setOpen(false)}> La Empresa </Link>
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-              <Link to="Historia" onClick={() => setOpen(false)} > Historia </Link>
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-                <Link to="Renovables" onClick={() => setOpen(false)} > Renovables </Link> 
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-                <Link to="Iluminacion" onClick={() => setOpen(false)} > Iluminacion </Link> 
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-                <Link to="Industrial" onClick={() => setOpen(false)} > Industrial </Link> 
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-                <Link to="Almacenamiento" onClick={() => setOpen(false)} > Alm. Energia </Link> 
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-              <Link to="Productos" onClick={() => setOpen(false)}><Productos/></Link>
-            </li>
-            <li className={style.NAVBAR_INTEMS}>
-              <Link to="Carrito" onClick={() => setOpen(false)} >
-                <div>
-                  <BsCartDash className='text-white' />
-                </div>
-                <div>{productsLength}</div>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <ul className="DESKTOP-MENU hidden space-x-8 lg:flex pr-16 ">
-        <li className="">
-          <Link to="/">
-            <Inicio/>
-          </Link>
-        </li>
-        <li className="">
-          <Nosotros/>
-        </li>
-        <li className="">
-          <Sectores/>
-        </li>
-        <li className="">
-          <Link to="Productos"><Productos/></Link>
-        </li>
-        <li className="">
-          <a href="Contacto"><Contacto/></a>
-        </li>
-        <li className="">
-          <Link to="Carrito">
-            <div>
-              <BsCartDash className='text-white' />
+      <a className="flex items-center h-36 w-36 ml-2" href="/">
+        <img src={logo} alt="logo" className="right-1" />
+        <h3 className="text-slate-100 text-2xl font-bold"></h3>
+      </a>
+      <nav className="">
+        <section className="MOBILE-MENU flex mr-8 lg:hidden ">
+          <Link to="Carrito" onClick={() => setOpen(false)}>
+            <div className='mr-4' >
+              <BsCartDash className="text-white" />
             </div>
-            <div>{productsLength}</div>
+            <div className='text-white' >{productsLength}</div>
           </Link>
-        </li>
-      </ul>
-    </nav>
-    <style>{`
+          <div
+            className="HAMBURGER-ICON space-y-2"
+            onClick={() => setOpen((el) => !el)}
+          >
+            <span className={style.SPAN}></span>
+            <span className={style.SPAN}></span>
+            <span className={style.SPAN}></span>
+          </div>
+
+          <div className={Open ? "showMenuNav" : "hideMenuNav"}>
+            <div //cruz
+              className="absolute top-0 right-0 px-8 py-8 bg-sky-700"
+              onClick={() => setOpen(false)}
+            >
+              <svg
+                className="h-8 w-8 text-gray-600"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" className="text-white" />
+                <line x1="6" y1="6" x2="18" y2="18" className="text-white" />
+              </svg>
+            </div>
+            <ul className={style.NAVBAR_INTEMS_1}>
+              <img src={logo12} alt="image" className="w-24" />
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="/" onClick={() => setOpen(false)}>
+                  <Inicio />
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="LaEmpresa" onClick={() => setOpen(false)}>
+                  {" "}
+                  La Empresa{" "}
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="Historia" onClick={() => setOpen(false)}>
+                  {" "}
+                  Historia{" "}
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="Renovables" onClick={() => setOpen(false)}>
+                  {" "}
+                  Renovables{" "}
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="Iluminacion" onClick={() => setOpen(false)}>
+                  {" "}
+                  Iluminacion{" "}
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="Industrial" onClick={() => setOpen(false)}>
+                  {" "}
+                  Industrial{" "}
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="Almacenamiento" onClick={() => setOpen(false)}>
+                  {" "}
+                  Alm. Energia{" "}
+                </Link>
+              </li>
+              <li className={style.NAVBAR_INTEMS}>
+                <Link to="Productos" onClick={() => setOpen(false)}>
+                  <Productos />
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex pr-16 ">
+          <li className="">
+            <Link to="/">
+              <Inicio />
+            </Link>
+          </li>
+          <li className="">
+            <Nosotros />
+          </li>
+          <li className="">
+            <Sectores />
+          </li>
+          <li className="">
+            <Link to="Productos">
+              <Productos />
+            </Link>
+          </li>
+          <li className="">
+            <a href="Contacto">
+              <Contacto />
+            </a>
+          </li>
+          <li className="">
+            <Link to="Carrito">
+              <div>
+                <BsCartDash className="text-white" />
+              </div>
+              <div className='text-white' >{productsLength}</div>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <style>{`
         .hideMenuNav {
           display: none;
         }
@@ -144,8 +166,8 @@ const Navbar = () => {
           align-items: center;
         }
       `}</style>
-  </div>
-  )
+    </div>
+  );
 }
 
 export default Navbar
